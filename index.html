@@ -4,8 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    hola este es el cuerpo el interfaz de la calculadora
+    <div class="container">
+      <div class="calculator">
+        <div class="display">
+          <div id="previousOperand"></div>
+          <div id="currentOperand"></div>
+        </div>
+        <button class="reset" data-action="clear">AC</button>
+        <button class="operator" value="percentage">%</button>
+        <button class="operator" value="divide">/</button>
+        <button class="reset" data-action="delete">&#9003;</button>
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button class="operator" value="multiply">&times;</button>
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button class="operator" value="subtract">-</button>
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="operator" value="add">+</button>
+        <button class="operator" value="sign">+/-</button>
+        <button class="number">0</button>
+        <button class="number">.</button>
+        <button class="operator" value="equals">=</button>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
   </body>
 </html>
